@@ -36,5 +36,4 @@ I also have knowledge in the field of deploying servers, creating docker contain
 - **Scrum**
 - **Kanban**
 
-
 ---
