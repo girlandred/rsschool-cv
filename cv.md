@@ -37,3 +37,25 @@ I also have knowledge in the field of deploying servers, creating docker contain
 - **Kanban**
 
 ---
+
+## :star2: Experience
+
+**Agiliway | Junior Software engineer** _(Dec 2021 - Present)_
+
+[CiviMobile](https://civimobile.org/ua/) is a native mobile application that allows CiviCRM users to leverage the combined benefits of the software and their smartphones.
+
+- **_Technologies used:_** React, JavaScript, PHP.
+
+[Whosmailingwhat](https://www.whosmailingwhat.com/)
+
+- **_Technologies used:_** HTML, SCSS, JavaScript, PHP(Laravel).
+
+**Pet** **Projects**
+
+[Recipe App](https://github.com/girlandred/recipe-app) is full-stack app for creating recipes, leaving reviews, collecting achievements
+
+- **_Technologies used:_** Tailwind, PHP(Laravel/Livewire).
+
+[Data Engineering](https://github.com/girlandred/data-engineering) projects for data engineering and analysis
+
+- **_Technologies used:_** Pandas, Seaborn, Plotly, Matplot.
