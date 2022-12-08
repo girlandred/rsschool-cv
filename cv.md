@@ -1,10 +1,10 @@
 # **Maryna Shyta**
 
-_Software Engineer based in Kyiv :ukraine:_
+_Software Engineer based in Kyiv_
 
 ---
 
-## :woman_technologist: About Me
+## About Me
 
 I am a young software developer with a skill for working hard to get the best results
 My main achievement in my 19 years is solving quadratic equations with Vieta's theorem
@@ -15,7 +15,7 @@ I also have knowledge in the field of deploying servers, creating docker contain
 
 ---
 
-## :hammer_and_wrench: Skills
+## Skills
 
 ### Programming languages
 
@@ -38,9 +38,9 @@ I also have knowledge in the field of deploying servers, creating docker contain
 
 ---
 
-## :star2: Experience
+## Experience
 
-**Agiliway | Junior Software engineer** _(Dec 2021 - Present)_
+**Agiliway** | **Junior Software engineer** _(Dec 2021 - Present)_
 
 [CiviMobile](https://civimobile.org/ua/) is a native mobile application that allows CiviCRM users to leverage the combined benefits of the software and their smartphones.
 
@@ -62,7 +62,7 @@ I also have knowledge in the field of deploying servers, creating docker contain
 
 ---
 
-## :school: Education
+## Education
 
 **Bachelor of Computer Science** in Software Engineering studies
 
@@ -78,17 +78,17 @@ I also have knowledge in the field of deploying servers, creating docker contain
 
 ---
 
-## :speech_balloon: Languages
+## Languages
 
-:us: **English:** B2+
+**English:** B2+
 
-:de: **German:** B1+
+**German:** B1+
 
-:ukraine: **Ukrainian:** Native
+**Ukrainian:** Native
 
 ---
 
-## :desktop_computer: Code Example
+## Code Example
 
 ```js
 
