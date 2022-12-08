@@ -131,3 +131,5 @@ person.profession;
 ```
 
 ---
+
+[Email](mailto:maryna.shyta@gmail.com) / [LinkedIn](https://www.linkedin.com/in/marynashyta/) / [GitHub](https://github.com/girlandred)
