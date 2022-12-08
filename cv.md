@@ -87,3 +87,47 @@ I also have knowledge in the field of deploying servers, creating docker contain
 :ukraine: **Ukrainian:** Native
 
 ---
+
+## :desktop_computer: Code Example
+
+```js
+
+class Person {
+  constructor(name, surname, birthYear) {
+    this.name = name;
+    this.surname = surname;
+    this.birthYear = birthYear;
+  }
+
+  get fullName() {
+    return `${this.name} ${this.surname}`;
+  }
+
+  set fullName(value) {
+    [this.name, this.surname] = value.split(" ");
+  }
+
+  age() {
+    let date = new Date();
+    return date.getFullYear() - this.birthYear;
+  }
+
+  introducing() {
+    alert("My name is " + this.fullName);
+    alert("I am " + this.age() + " years old.");
+  }
+}
+
+class Programmer extends Person {
+  constructor(name, surname, birthYear, profession, stack) {
+    super(name, surname, birthYear);
+    this.profession = profession;
+    this.stack = stack;
+  }
+}
+let person = new Programmer("Maryna", "Shyta", 2003, 'Backend Developer', 'PHP');
+person.introducing();
+person.profession;
+```
+
+---
