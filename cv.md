@@ -40,7 +40,7 @@ I also have knowledge in the field of deploying servers, creating docker contain
 
 ## Experience
 
-**Agiliway** | **Junior Software engineer** _(Dec 2021 - Present)_
+**Agiliway Junior Software engineer** _(Dec 2021 - Present)_
 
 [CiviMobile](https://civimobile.org/ua/) is a native mobile application that allows CiviCRM users to leverage the combined benefits of the software and their smartphones.
 
