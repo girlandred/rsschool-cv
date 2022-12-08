@@ -12,3 +12,29 @@ Since I have been working on a real project for a year now, I have experience of
 My main goal is to achieve a high level of knowledge in the field of web development
 Over the past three years, I have developed in such areas as data engineering, development of the server-side of applications and the user-side
 I also have knowledge in the field of deploying servers, creating docker containers
+
+---
+
+## :hammer_and_wrench: Skills
+
+### Programming languages
+
+- **C/C++**
+- **Python**
+- **PHP** _(Laravel)_
+- **JavaScript** _(Vue.js/React.js)_
+
+### Deployment
+
+- **YAML**
+- **Docker**
+- **AWS**
+- **Azure**
+
+### Methodology
+
+- **Scrum**
+- **Kanban**
+
+
+---
