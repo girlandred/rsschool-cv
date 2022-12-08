@@ -59,3 +59,19 @@ I also have knowledge in the field of deploying servers, creating docker contain
 [Data Engineering](https://github.com/girlandred/data-engineering) projects for data engineering and analysis
 
 - **_Technologies used:_** Pandas, Seaborn, Plotly, Matplot.
+
+---
+
+## :school: Education
+
+**Bachelor of Computer Science** in Software Engineering studies
+
+- [Lviv National University](https://lnu.edu.ua/) - Lviv, Ukraine _(2020 - 2024)_
+
+**Finished** **Courses**
+
+- [Agiliway PHP training](https://agiliway.com/career/agiliway-training-center/) - Lviv, Ukraine _(2021 - 2022)_
+
+- [Epam Frontend School](https://careers.epam.ua/learning) - Lviv, Ukraine _(2020 - 2021)_
+
+- [Data Science](https://www.coursera.org/account/accomplishments/certificate/TLL87BQB9CH4) - Lviv, Ukraine _(2022)_
