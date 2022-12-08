@@ -75,3 +75,15 @@ I also have knowledge in the field of deploying servers, creating docker contain
 - [Epam Frontend School](https://careers.epam.ua/learning) - Lviv, Ukraine _(2020 - 2021)_
 
 - [Data Science](https://www.coursera.org/account/accomplishments/certificate/TLL87BQB9CH4) - Lviv, Ukraine _(2022)_
+
+---
+
+## :speech_balloon: Languages
+
+:us: **English:** B2+
+
+:de: **German:** B1+
+
+:ukraine: **Ukrainian:** Native
+
+---
