@@ -1,1 +1,1 @@
-# rsschool-cv
+https://girlandred.github.io/rsschool-cv/cv
