@@ -1,4 +1,51 @@
-.resume_wrapper .resume_left .image img{
-	width: 100%;
-	display: block;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+	background: #c4c4c4;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.cv__wrapper{
+	display: flex;
+	width: 800px;
+	margin: 50px auto;
+	background: #fff;
+	padding: 10px;
+}
+
+.cv__wrapper .cv__left_side{
+	width: 35%;
+	background: #A8BED8;
+}
+
+.cv__wrapper .cv__left_side .cv__image img {
+    width: 100%;
+    display: block;
+}
+
+.cv__item {
+	color: rgb(58, 56, 56);
+}
+
+.cv__wrapper .cv__left_side{
+	padding: 20px 30px;
+}
+
+.cv__wrapper .cv__item{
+	padding: 20px 0;
+	border-bottom: 1px solid #475f6c;
+}
+
+.cv__wrapper .cv__intro .name{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 5px;
+	letter-spacing: 2px;
 }
