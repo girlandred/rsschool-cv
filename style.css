@@ -55,24 +55,6 @@ body {
     letter-spacing: 2px;
 }
 
-.cv__wrapper .cv__left_side .skills_list .skills_bar p {
-    position: relative;
-    width: 125px;
-    height: 10px;
-    margin: 3px;
-    background: #A8BED8;
-}
-
-.cv__wrapper .cv_skills .skills_list .skills_bar p span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 100px;
-    background: #fff;
-    width: 100%;
-    height: 100%;
-}
-
 .cv__wrapper .cv__right_side {
     width: 65%;
     padding: 20px 40px;
@@ -125,18 +107,24 @@ body {
     display: none;
 }
 
-.cv__wrapper .cv__right_side .resmue_interests .resume_info {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+.cv__wrapper .skills_list .skills_bar p {
+    position: relative;
+    width: 125px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    background: #A8BED8;
 }
 
-.cv__wrapper .cv__right_side .resmue_interests .interests .int_icon {
-    font-size: 38px;
-    color: #0175b2;
-    margin-bottom: 10px;
+.cv__wrapper .cv_skills .skills_list .skills_bar p span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    background: #fff;
+    width: 100%;
+    height: 100%;
 }
-
 
 @media screen and (max-width: 800px) {
     .cv__wrapper .cv__right_side .resume_namerole {
