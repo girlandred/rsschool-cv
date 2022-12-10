@@ -5,23 +5,28 @@
     box-sizing: border-box;
 }
 
-body{
-	background: #c4c4c4;
-	font-size: 14px;
-	line-height: 20px;
+a {
+    text-decoration: none;
+    color: rgb(58, 56, 56);
 }
 
-.cv__wrapper{
-	display: flex;
-	width: 800px;
-	margin: 50px auto;
-	background: #fff;
-	padding: 10px;
+body {
+    background: #c4c4c4;
+    font-size: 14px;
+    line-height: 20px;
 }
 
-.cv__wrapper .cv__left_side{
-	width: 35%;
-	background: #A8BED8;
+.cv__wrapper {
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 10px;
+}
+
+.cv__wrapper .cv__left_side {
+    width: 35%;
+    background: #A8BED8;
 }
 
 .cv__wrapper .cv__left_side .cv__image img {
@@ -30,22 +35,157 @@ body{
 }
 
 .cv__item {
-	color: rgb(58, 56, 56);
+    color: rgb(58, 56, 56);
 }
 
-.cv__wrapper .cv__left_side{
-	padding: 20px 30px;
+.cv__wrapper .cv__left_side {
+    padding: 20px 30px;
 }
 
-.cv__wrapper .cv__item{
-	padding: 20px 0;
-	border-bottom: 1px solid #475f6c;
+.cv__wrapper .cv__item {
+    padding: 20px 0;
+    border-bottom: 1px solid #475f6c;
 }
 
-.cv__wrapper .cv__intro .name{
-	font-size: 20px;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin-bottom: 5px;
-	letter-spacing: 2px;
+.cv__wrapper .cv__intro .name {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cv__wrapper .cv__left_side .skills_list .skills_bar p {
+    position: relative;
+    width: 125px;
+    height: 10px;
+    margin: 3px;
+    background: #A8BED8;
+}
+
+.cv__wrapper .cv_skills .skills_list .skills_bar p span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.cv__wrapper .cv__right_side {
+    width: 65%;
+    padding: 20px 40px;
+    color: #26252d;
+}
+
+.cv__wrapper .cv__right_side .cv__header {
+    color: #26252d;
+    padding-bottom: 5px;
+}
+
+.internal {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.cv__wrapper .cv__right_side .cv__data .year {
+    padding-right: 35px;
+}
+
+.cv__wrapper .cv__right_side .cv__data .content {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: calc(100% - 115px);
+}
+
+.cv__wrapper .cv__right_side .cv__data .year:before {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #26252d;
+    border-radius: 50%;
+}
+
+.cv__wrapper .cv__right_side .cv__data .year:after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 4px;
+    width: 3px;
+    height: 90%;
+    background: #0175b2;
+}
+
+.cv__wrapper .cv__right_side .cv__data:last-child .year:after {
+    display: none;
+}
+
+.cv__wrapper .cv__right_side .resmue_interests .resume_info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cv__wrapper .cv__right_side .resmue_interests .interests .int_icon {
+    font-size: 38px;
+    color: #0175b2;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .cv__wrapper .cv__right_side .resume_namerole {
+        display: none;
+    }
+
+    .cv__wrapper .resume_left .resume_namerole {
+        display: block;
+    }
+
+    .cv__wrapper {
+        width: 95%;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    .cv__wrapper .resume_left,
+    .cv__wrapper .cv__right_side {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .cv__wrapper .cv__right_side {
+        padding: 20px 30px;
+    }
+
+    .cv__wrapper .cv__right_side .cv__data {
+        flex-direction: column;
+    }
+
+    .cv__wrapper .cv__right_side .cv__data .year {
+        padding: 0;
+        margin-bottom: 5px;
+        width: 100%;
+        color: #0175b2;
+    }
+
+    .cv__wrapper .cv__right_side .cv__data .year:before,
+    .cv__wrapper .cv__right_side .cv__data .year:after {
+        display: none;
+    }
+
+    .cv__wrapper .cv__right_side .cv__data .content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .cv__wrapper .cv__right_side .resmue_interests .interests .int_icon {
+        font-size: 24px;
+    }
 }
