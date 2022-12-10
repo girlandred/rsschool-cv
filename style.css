@@ -93,16 +93,6 @@ body {
     border-radius: 50%;
 }
 
-.cv__wrapper .cv__right_side .cv__data .year:after {
-    content: "";
-    position: absolute;
-    top: 17px;
-    right: 4px;
-    width: 3px;
-    height: 90%;
-    background: #0175b2;
-}
-
 .cv__wrapper .cv__right_side .cv__data:last-child .year:after {
     display: none;
 }
@@ -127,21 +117,13 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    .cv__wrapper .cv__right_side .resume_namerole {
-        display: none;
-    }
-
-    .cv__wrapper .resume_left .resume_namerole {
-        display: block;
-    }
-
     .cv__wrapper {
         width: 95%;
         margin: 10px auto;
         flex-direction: column;
     }
 
-    .cv__wrapper .resume_left,
+    .cv__wrapper .cv__left_side,
     .cv__wrapper .cv__right_side {
         width: 100%;
     }
@@ -160,7 +142,6 @@ body {
         padding: 0;
         margin-bottom: 5px;
         width: 100%;
-        color: #0175b2;
     }
 
     .cv__wrapper .cv__right_side .cv__data .year:before,
@@ -171,9 +152,5 @@ body {
     .cv__wrapper .cv__right_side .cv__data .content {
         width: 100%;
         padding: 0;
-    }
-
-    .cv__wrapper .cv__right_side .resmue_interests .interests .int_icon {
-        font-size: 24px;
     }
 }
